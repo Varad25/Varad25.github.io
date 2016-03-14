@@ -55,9 +55,9 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Go Jackets!"
-  - text: "Coffee saves lives."
+  - text: "Coffee saves lives"
   - text: "Duniya Hila denge hum!"
+  - text: "Go Jackets!"
   - text: "Lannisters send their regards."
 
 me-img: "/img/Varad-me.jpg"
