@@ -1,0 +1,185 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "https://panossakkos.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+baseurl: /personal-jekyll-theme
+
+# Google tracking id to track your visitors
+
+google-tracking-id: "UA-35880426-4"
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Varad Chemburkar"
+title: "Varad Chemburkar"
+description: "Website of Varad Chemburkar"
+keywords: "Chemburkar, Varad, personal, jekyll, theme"
+favicon: "/img/favicon.ico"
+
+################
+# Header layout #
+################
+
+black-favicon: "/img/black-lab-glass.ico"
+
+background-img: "../img/intro-bg.jpg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "The lower you fall, the higher you'll fly."
+  - text: "Where’s your will to be weird?"
+
+me-img: "/img/Varad-me.jpg"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: True
+pinterest-share: True
+pocket-share: True
+vkontakte-share: True
+
+disqus-shortname: "panossakkos"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+  - image: "/img/timeline/minion6.png"
+    date: "Jan 2016 - Today"
+    description: "Cognosos.Inc<br><small>Software Engineer Intern</small>"
+  - image: "/img/timeline/minion5.png"
+    date: "May 2015 - Dec 2015"
+    description: "MoQuality<br><small>Software Developer Intern</small>"
+  - image: "/img/timeline/minion4.png"
+    date: "August 2014 - Today"
+    description: "Georgia Tech<br><small>Masters in Electrical And Computer Engineer</small>"
+  - image: "/img/timeline/minion2.png"
+    date: "August 2013 - July 2014"
+    description: "Reliance JIO Infocomm LTD<br><small>Graduate Engineer Trainee</small>"
+  - image: "/img/timeline/minion3.png"
+    date: "August 2009 - July 2013"
+    description: "University of Mumbai<br><small>BE in Electronics and Telecommunication</small>"
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/minion1.png"
+
+###########
+# Contact #
+###########
+
+email: "vhc1992@gmail.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "linkedin"
+    url: "https://www.linkedin.com/in/varadchemburkar"
+  - title: "facebook"
+    url: "https://www.facebook.com/varad.chemburkar"
+  - title: "twitter"
+    url: "https://twitter.com/VaradCK"
+  - title: "github"
+    url: "https://github.com/Varad25"
+
+############
+# 404 page #
+############
+
+404-img: "/img/labtocat.png"
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  # Projects: 'projects'
+  Timeline: 'timeline'
+  Contact: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jemoji
