@@ -55,12 +55,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Muak Muak Muak"
-  - text: "Drink Coffee"
-  - text: "Me want banana"
-  - text: "Tatata Bala Tu"
-  - text: "BEE DO BEE DO BEE DO"
-  - text: "Tank Yu!"
+  - text: "Go Jackets!"
+  - text: "Coffee saves lives."
+  - text: "Duniya Hila denge hum!"
+  - text: "Lannisters send their regards."
 
 me-img: "/img/Varad-me.jpg"
 
