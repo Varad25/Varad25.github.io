@@ -55,8 +55,12 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "Muak Muak Muak"
+  - text: "Drink Coffee"
+  - text: "Me want banana"
+  - text: "Tatata Bala Tu"
+  - text: "BEE DO BEE DO BEE DO"
+  - text: "Tank Yu!"
 
 me-img: "/img/Varad-me.jpg"
 
