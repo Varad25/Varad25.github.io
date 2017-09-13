@@ -54,11 +54,11 @@ loop-count: False # Set False for infinite loop, or set any number for finite lo
 type-speed: 10
 start-delay: 200
 delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "Coffee saves lives"
-  - text: "Duniya Hila denge hum!"
-  - text: "Go Jackets!"
-  - text: "Lannisters send their regards."
+# lines: # You can add HTML Tags in the Text
+#   - text: "Coffee saves lives"
+#   - text: "Duniya Hila denge hum!"
+#   - text: "Go Jackets!"
+#   - text: "Lannisters send their regards."
 
 me-img: "/img/Varad-me.jpg"
 
@@ -110,26 +110,26 @@ syntax-highlight: True
 # Timeline #
 ############
 
-events:
-  - image: "/img/timeline/minion6.png"
-    date: "Jan 2016 - Today"
-    description: "Cognosos.Inc<br><small>Software Engineer Intern</small>"
-  - image: "/img/timeline/minion5.png"
-    date: "May 2015 - Dec 2015"
-    description: "MoQuality<br><small>Software Developer Intern</small>"
-  - image: "/img/timeline/minion4.png"
-    date: "August 2014 - Today"
-    description: "Georgia Tech<br><small>Masters in Electrical And Computer Engineer</small>"
-  - image: "/img/timeline/minion2.png"
-    date: "August 2013 - July 2014"
-    description: "Reliance JIO Infocomm LTD<br><small>Graduate Engineer Trainee</small>"
-  - image: "/img/timeline/minion3.png"
-    date: "August 2009 - July 2013"
-    description: "University of Mumbai<br><small>BE in Electronics and Telecommunication</small>"
+# events:
+#   - image: "/img/timeline/minion6.png"
+#     date: "Jan 2016 - Today"
+#     description: "Cognosos.Inc<br><small>Software Engineer Intern</small>"
+#   - image: "/img/timeline/minion5.png"
+#     date: "May 2015 - Dec 2015"
+#     description: "MoQuality<br><small>Software Developer Intern</small>"
+#   - image: "/img/timeline/minion4.png"
+#     date: "August 2014 - Today"
+#     description: "Georgia Tech<br><small>Masters in Electrical And Computer Engineer</small>"
+#   - image: "/img/timeline/minion2.png"
+#     date: "August 2013 - July 2014"
+#     description: "Reliance JIO Infocomm LTD<br><small>Graduate Engineer Trainee</small>"
+#   - image: "/img/timeline/minion3.png"
+#     date: "August 2009 - July 2013"
+#     description: "University of Mumbai<br><small>BE in Electronics and Telecommunication</small>"
 
-# First image of the Timeline
+# # First image of the Timeline
 
-timeline-img: "/img/timeline/minion1.png"
+# timeline-img: "/img/timeline/minion1.png"
 
 ###########
 # Contact #
@@ -164,9 +164,9 @@ social:
 # Sections shown in the index page
 
 pages_list:
-  About: 'about'
+  # About: 'about'
   # Projects: 'projects'
-  Timeline: 'timeline'
+  # Timeline: 'timeline'
   Contact: 'contact'
 
 # Exclusion list from the generated _site
